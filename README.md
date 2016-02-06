@@ -1,7 +1,7 @@
-# ltalkNapisz program ltalk (wzorując się na programie przedstawionym na wykładzie minitalk) do jednoczesnej 
-rozmowy dowolnej liczby użytkowników. Jest to prosta wersja rozmowy typu rozgłoszeniowego 
-(ang. broadcast), czyli jak jeden z klientów programu wpisze wiadomość pojawia się ona na ekranie u 
-każdego innego klienta podłączonego do serwera. Dla odróżnienia klientów na początku każdej wiadomości proszę wpisać nick.
+# ltalk ( student task )
+Program ltalk  do jednoczesnej rozmowy dowolnej liczby użytkowników. Jest to prosta wersja rozmowy typu rozgłoszeniowego
+(ang. broadcast), czyli jak jeden z klientów programu wpisze wiadomość pojawia się ona na ekranie u
+każdego innego klienta podłączonego do serwera. Dla odróżnienia klientów na początku każdej wiadomości wypisuje nick.
 
 Compilation:
 make
@@ -30,7 +30,7 @@ thanks for registering
 >>>> [jan 22:31 ]: hi guys
 >>>> [jan 22:31 ]: nice to meet you
 >>>> [jan 22:31 ]: im frist time on this chat
->>>> 
+>>>>
 
 -------------------------------------------
 telnet localhost 8888
@@ -53,14 +53,10 @@ thanks for registering
 >>>> [jan 22:31 ]: hi guys
 >>>> [jan 22:31 ]: nice to meet you
 >>>> [jan 22:31 ]: im frist time on this chat
->>>> 
+>>>>
 
 
 
-Code still requires some cleaning up ( like making functions smaller etc ) but i've tested 
-it for memory leaks. 
-Some coverage tests need to be done and much functionality can be added.
-
-TODO:
-* dynamic threads array
-* pthread_create
+Code still requires some cleaning up ( like making functions smaller etc ) but i've tested
+it for memory leaks.
+Some coverage tests need to be done and a lot functionality can be added.
