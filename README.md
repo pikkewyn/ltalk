@@ -9,7 +9,7 @@ make
 Running:
 run ./ltalk in one terminal and than in two other run telnet like this:
 
-telnet localhost 8888
+```telnet localhost 8888
 Trying ::1...
 Connection failed: Connection refused
 Trying 127.0.0.1...
@@ -54,7 +54,7 @@ thanks for registering
 >>>> [jan 22:31 ]: nice to meet you
 >>>> [jan 22:31 ]: im frist time on this chat
 >>>>
-
+```
 
 
 Code still requires some cleaning up ( like making functions smaller etc ) but i've tested
