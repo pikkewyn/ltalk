@@ -1,4 +1,4 @@
-# ltalk ( student task )
+# ltalk ( university task )
 Program ltalk  do jednoczesnej rozmowy dowolnej liczby użytkowników. Jest to prosta wersja rozmowy typu rozgłoszeniowego
 (ang. broadcast), czyli jak jeden z klientów programu wpisze wiadomość pojawia się ona na ekranie u
 każdego innego klienta podłączonego do serwera. Dla odróżnienia klientów na początku każdej wiadomości wypisuje nick.
